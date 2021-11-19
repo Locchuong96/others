@@ -1,5 +1,11 @@
 # IT-stuff
 
+## How to install python Manually
+
+https://www.activestate.com/resources/quick-reads/python-package-installation-on-windows/#python-installation-requirements
+
+https://www.activestate.com/resources/quick-reads/how-to-manually-install-python-packages/
+
 ## UML-diagrams
 ![UML Diagram](https://user-images.githubusercontent.com/73679364/134617852-99c35a03-c38a-4db2-9900-6bfaa91026d2.png)
 
