@@ -1,0 +1,3 @@
+today i am learning linux bash script
+Thank you for hardworking!This is append part
+You must know the different between ">" and ">>"
