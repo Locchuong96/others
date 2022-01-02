@@ -1,0 +1,11 @@
+#! /bin/bash
+
+echo "Enter your string: "
+
+read str
+
+echo ${str^l} # lower case
+
+echo ${str^^} # upper case
+
+
