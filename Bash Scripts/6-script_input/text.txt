@@ -1,0 +1,7 @@
+
+This is a text file
+For read text script
+The read text sript will read each line
+and print it out
+print ctrl + d to stop write text file
+press ctrl + z to stop while loop 
