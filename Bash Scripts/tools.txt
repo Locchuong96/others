@@ -1,0 +1,4 @@
+https://helpmanual.io/packages/apt/inotify-tools/
+https://www.gnu.org/software/grep/manual/grep.html
+https://curl.se/docs/manual.html
+https://www.gnu.org/software/gawk/manual/gawk.html
