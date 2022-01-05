@@ -1,0 +1,12 @@
+# positional
+# optional
+# short vs long opts
+# aliases
+# help
+# defaults
+# types
+# custom types
+# count
+# append
+# boolean options
+# choices
