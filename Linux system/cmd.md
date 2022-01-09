@@ -20,7 +20,7 @@
 
 `find *.py` : find files or folder
 
-`ls` `ls -l` `ls-a` `ls-la` : list folders and files
+`ls` `ls -l` `ls -a` `ls -la` `ls -lh` `ls -lR Desktop/` : list folders and files
 
 `tree` `tree > struct.txt`: show tree structure and export tree tructure
 
