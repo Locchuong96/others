@@ -1,5 +1,13 @@
 ### linux familiar commands
 
+`Ctrl + Alt + T` : open the terminal
+
+`Ctrl + Shift + W` : close the terminal
+
+`Ctrl + Shift + +` : increase front size
+
+`Ctrl + -` : decrease front size
+
 `mv` : rename directory
 
 `cp` : copy folder
