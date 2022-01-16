@@ -5,3 +5,7 @@ https://www.activestate.com/resources/quick-reads/python-package-installation-on
 
 https://www.activestate.com/resources/quick-reads/how-to-manually-install-python-packages/
 
+## Threading python
+
+https://realpython.com/intro-to-python-threading/
+
