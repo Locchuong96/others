@@ -15,6 +15,7 @@
 [threading](https://realpython.com/intro-to-python-threading/)
 
 **4/ Coding style**
+
 [opencv-coding style](https://github.com/opencv/opencv/wiki/Coding_Style_Guide)
 
 **5/ UML drawing**
