@@ -72,6 +72,11 @@ run docker with terminal input
     docker run -[map] <your_outsize_port>:<your_inside_port> <your_image>
     docker run -p 8000:8000 con2
 
+**12/ open terminal inside container**
+
+    docker exec -it [container id] /bin/sh
+    docker exec -it 4a956bc0df6e /bin/sh
+
 **Example1**
 
     # this is a comment in docker
