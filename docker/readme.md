@@ -50,7 +50,8 @@ running `hello-world` image
 
 run docker with terminal input
 
-    docker run -t -i [your_image_name]
+    docker run -i [your_image_name]
+    docker run -t [your_image_name]
 
 `-t` stand for pesudo terminal
 
@@ -60,3 +61,51 @@ run docker with terminal input
 
     docker stop [container_id or name]
     docker stop b3a9527447bc
+
+**10/ remove images**
+
+    docker image [remove] [force] <your_image_name>
+    docker image rm -f python-imdb
+
+**11/ map port**
+
+    docker run -[map] <your_outsize_port>:<your_inside_port> <your_image>
+    docker run -p 8000:8000 con2
+
+**Example1**
+
+    # this is a comment in docker
+    # Dockerfile, Image, Container
+    # FROM baseImage
+    FROM  python:3.8
+
+    # add the main.py into the container
+    ADD main.py .
+
+    # you can install python-packages by pip install or pip install -r requirements.txt
+    RUN pip install requests Beautifulsoup4
+
+    # specify the entry command, meaning when you run docker this command will activate the container
+    CMD ["python","./main.py"]
+
+**Example2**
+
+    # this is a comment in docker
+    # Dockerfile, Image, Container
+    # FROM baseImage
+    FROM  python:3.8
+
+    # add starting point working directory
+    WORKDIR /fastapi-app
+
+    # copy the requirement into the directory
+    COPY requirements2.txt .
+
+    # you can install python-packages by pip install or pip install -r requirements.txt
+    RUN pip install -r requirements2.txt
+
+    # copy the app floder on your machine into the container
+    COPY ./app ./app
+
+    # specify the entry command, meaning when you run docker this command will activate the container
+    CMD ["python","./app/main.py"]
