@@ -37,3 +37,5 @@
 [How to run Python scripts in a Docker container](https://www.youtube.com/watch?v=uvTl6GefR9o)
 
 [Build a Docker image and run a custom script](https://www.youtube.com/watch?v=2_yOif1JlW0)
+
+[FastAPI-docker](https://fastapi.tiangolo.com/deployment/docker/)
