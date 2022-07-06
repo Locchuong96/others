@@ -28,6 +28,8 @@
 
 [install_docker_linux_ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 
+[docker_user_permission](https://docs.docker.com/engine/install/linux-postinstall/)
+
 [docker_getting_started](https://www.docker.com/get-started/)
 
 [docker_hub](https://hub.docker.com/)
