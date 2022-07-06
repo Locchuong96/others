@@ -43,3 +43,5 @@
 [Build a Docker image and run a custom script](https://www.youtube.com/watch?v=2_yOif1JlW0)
 
 [FastAPI-docker](https://fastapi.tiangolo.com/deployment/docker/)
+
+[setup-private-docker](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-14-04)
