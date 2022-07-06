@@ -6,7 +6,11 @@ All shells on linux
 
 **Reference**
 [1/ inotify-tools](https://helpmanual.io/packages/apt/inotify-tools/)
+
 [2/ grep](https://www.gnu.org/software/grep/manual/grep.html)
+
 [3/ curl](https://curl.se/docs/manual.html)
+
 [4/ awk](https://www.gnu.org/software/gawk/manual/gawk.html)
+
 [5/ bash_script](https://www.youtube.com/watch?v=e7BufAVwDiM&list=PLsM05n4rlXWTamBIPSom7mQVA-xooDkxw)
