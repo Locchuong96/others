@@ -78,6 +78,12 @@ run docker with terminal input
 
     docker exec -it [container id] /bin/sh
     docker exec -it 4a956bc0df6e /bin/sh
+    
+**13/ commit your change**
+
+You can create container from a image then change something and commit to create a new image
+
+    docker commit -m "What you did to the image" -a "Author Name" container_id repository/new_image_name
 
 **Example1**
 
@@ -116,3 +122,17 @@ run docker with terminal input
 
     # specify the entry command, meaning when you run docker this command will activate the container
     CMD ["python","./app/main.py"]
+    
+**Example3**
+    # docker - linux
+    # run ubuntu docker
+    sudo docker run -it ubuntu
+    
+    # update
+    apt update
+    
+    # install a application
+    apt install nodejs
+    
+    # exit container
+    exit
