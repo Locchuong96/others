@@ -10,6 +10,8 @@ docker concepts
 
 - `Container`: is running process
 
+    docker [optional] [command] [argument]
+
 when you need to get help `docker [command] --help`
 
 **1/ get a summary of docker**
