@@ -67,8 +67,11 @@ run docker with terminal input
 
 **10/ remove images**
 
+Make sure the image do not have any container before you remove it
+
     docker image [remove] [force] <your_image_name>
     docker image rm -f python-imdb
+    docker rmi [your_image]
 
 **11/ map port**
 
