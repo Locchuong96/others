@@ -88,6 +88,11 @@ You can create container from a image then change something and commit to create
     
 **14/ check linux os information** `cat /etc/*release*`
 
+**15/ search docker image on dockerhub** 
+
+    sudo docker search [your_image_name]
+    sudo docker search docker/whalesay
+
 **Example1**
 
     # this is a comment in docker
