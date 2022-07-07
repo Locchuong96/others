@@ -92,6 +92,11 @@ You can create container from a image then change something and commit to create
 
     sudo docker search [your_image_name]
     sudo docker search docker/whalesay
+    
+**16/ pull image from dockerhub**
+
+    sudo docker pull [image_name]
+    sudo docker pull docker/whalesay
 
 **Example1**
 
