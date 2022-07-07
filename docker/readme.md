@@ -100,6 +100,10 @@ You can create container from a image then change something and commit to create
 
     sudo docker pull [image_name]
     sudo docker pull docker/whalesay
+    
+**17/ put your running contaner going to sleep**
+
+    sudo docker run [your_image] sleep 5
 
 **Example1**
 
