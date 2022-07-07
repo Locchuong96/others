@@ -85,6 +85,8 @@ run docker with terminal input
 You can create container from a image then change something and commit to create a new image
 
     docker commit -m "What you did to the image" -a "Author Name" container_id repository/new_image_name
+    
+**14/ check linux os information** `cat /etc/*release*`
 
 **Example1**
 
