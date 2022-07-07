@@ -72,7 +72,11 @@ Make sure the image do not have any container before you remove it
     docker image [remove] [force] <your_image_name>
     docker image rm -f python-imdb
     docker rmi [your_image]
-
+    
+delete all containers
+    
+    docker rm -f $(docker ps -a -q)
+    
 **11/ map port**
 
     docker run -[map] <your_outsize_port>:<your_inside_port> <your_image>
@@ -104,6 +108,10 @@ You can create container from a image then change something and commit to create
 **17/ put your running contaner going to sleep**
 
     sudo docker run [your_image] sleep 5
+    
+**18/ build the container as as custom name**
+
+    sudo docker run --name [your_custom_name] [your_image]
 
 **Example1**
 
