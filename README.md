@@ -45,3 +45,7 @@
 [FastAPI-docker](https://fastapi.tiangolo.com/deployment/docker/)
 
 [setup-private-docker](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-14-04)
+
+**7/ C++**
+
+[C++ Programming Course - Beginner to Advanced](https://www.youtube.com/watch?v=8jLOx1hD3_o)
