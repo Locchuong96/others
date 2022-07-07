@@ -76,6 +76,10 @@ Make sure the image do not have any container before you remove it
 delete all containers
     
     docker rm -f $(docker ps -a -q)
+
+delete all images
+
+    docker image rm -f $(docker images -q)
     
 **11/ map port**
 
