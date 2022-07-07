@@ -57,11 +57,16 @@ run docker with terminal input
 
     docker run -i [your_image_name]
     docker run -t [your_image_name]
+    docker run -it [your_image_name]
 
-`-t` stand for pesudo terminal
+`-t` stand for terminal
 
 `-i` stand for interactive mode
 
+run docker with specific tag
+
+    docker run [your_image]:[your_specific_tag]
+    
 **9/ stop container**
 
     docker stop [container_id or name]
