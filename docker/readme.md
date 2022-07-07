@@ -1,6 +1,8 @@
 you can run docker CLI by familiar terminal ex: `git_bash`, `cmd`,etc. the `input` function can not be execute in the docker container.
 This is my trick `you get six, you give five and remain one to keep track`
 
+[test your docker knowlegdes](https://kodekloud.com/courses/labs-docker-for-the-absolute-beginner-hands-on/?utm_source=youtube_fcc&utm_medium=labs&utm_campaign=docker)
+
 docker concepts
 
     [Dockerfile],[Image],[Container]
