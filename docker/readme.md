@@ -1,4 +1,5 @@
 you can run docker CLI by familiar terminal ex: `git_bash`, `cmd`,etc. the `input` function can not be execute in the docker container.
+This is my trick `you get six, you give five and remain one to keep track`
 
 docker concepts
 
@@ -124,6 +125,7 @@ You can create container from a image then change something and commit to create
     CMD ["python","./app/main.py"]
     
 **Example3**
+
     # docker - linux
     # run ubuntu docker
     sudo docker run -it ubuntu
