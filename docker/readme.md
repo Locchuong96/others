@@ -123,6 +123,8 @@ You can create container from a image then change something and commit to create
 **18/ build the container as as custom name**
 
     sudo docker run --name [your_custom_name] [your_image]
+    
+sub3
 
 **Example1**
 
