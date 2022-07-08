@@ -18,4 +18,9 @@
 
 - build docker image `ADD floder /path/inside/your/container`
 
+**mySQL deploy**
+
+	sudo docker run --name [your_container_name] -e MYSQL_ROOT_PASSWORD=[your_root_password] [your_image_name]
+	sudo docker run --name mysql-sb -e MYSQL_ROOT_PASSWORD=db_pass123 mysql
+
 
