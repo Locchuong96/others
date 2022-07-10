@@ -5,18 +5,18 @@
 
 - how we can manage file system of the container, when you install dockeron your local machine, it will create the floder stucture like this
 
-	/var/lib/docker
-	|_buildkit
-	|_containers (store the files related to containers)
-	|_image	(store the files related to image)
-	|_network
-	|_overlay2
-	|_plugins
-	|_runtimes
-	|_swarm
-	|_tmp
-	|_trust
-	|_volumes
+		/var/lib/docker
+		|_buildkit
+		|_containers (store the files related to containers)
+		|_image	(store the files related to image)
+		|_network
+		|_overlay2
+		|_plugins
+		|_runtimes
+		|_swarm
+		|_tmp
+		|_trust
+		|_volumes
 
 Layered architecture
 
