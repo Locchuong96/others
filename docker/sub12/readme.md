@@ -1,6 +1,6 @@
-*docker compose**
+**docker compose**
 
-**deploy your sytem
+**deploy your sytem**
 
 - redis: `docker run -d --name=redis redis`
 - postgres: `docker run -d --name=db postgres:9.4 result-app`
