@@ -124,6 +124,10 @@ You can create container from a image then change something and commit to create
 
     sudo docker run --name [your_custom_name] [your_image]
     
+**19 / docker manifest image**
+
+    sudo docker manifest inspect ubuntu | grep 'architecture\|os'
+    
 sub3
 
 **Example1**
