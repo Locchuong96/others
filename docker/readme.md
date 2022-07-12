@@ -141,6 +141,11 @@ if you want push your local image into docker_hub,you must give it a tag
 **21/ docker volume**
 docker installed in linux in directory `var/lib/docker` and you need (superuser permission) `sudo su` to access, when use `docker volume`, the `./docker/volumes` will contain the floder created by volume.
 
+- get help with `docker volume`: `sudo docker volume --help`
+- list your volumes: `sudo docker volume ls`
+- inspect specific volume: `sudo docker volume inspect [your_volume]`
+- remove specific volume folder: `sudo docker rm [your_volume]`
+
 **22/ docker login**
 the `password` and the `username` store in `.json`
 
@@ -149,12 +154,7 @@ the `password` and the `username` store in `.json`
 **23/ logs inside the container**
 
     sudo docker logs
-    
-- get help with `docker volume`: `sudo docker volume --help`
-- list your volumes: `sudo docker volume ls`
-- inspect specific volume: `sudo docker volume inspect [your_volume]`
-- remove specific volume folder: `sudo docker rm [your_volume]`
-
+  
 **Example1**
 
     # this is a comment in docker
