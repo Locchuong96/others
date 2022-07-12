@@ -137,6 +137,14 @@ if you want push your local image into docker_hub,you must give it a tag
 
     sudo docker tag [your_image] [your_repository]/[your_version]
     sudo docker tag  0e5574283393 fedora/httpd:version1.0
+    
+** docker volume**
+docker installed in linux in directory `var/lib/docker` and you need (superuser permission) `sudo su` to access, when use `docker volume`, the `./docker/volumes` will contain the floder created by volume.
+
+- get help with `docker volume`: `sudo docker volume --help`
+- list your volumes: `sudo docker volume ls`
+- inspect specific volume: `sudo docker volume inspect [your_volume]`
+- remove specific volume folder: `sudo docker rm [your_volume]`
 
 **Example1**
 
