@@ -1,6 +1,8 @@
+# docker compose will automaticlly run and build from source
 version: "3.5"
 services:
-  web-fe:
+  # build web-fe image and run the container 
+  web-fe: 
     build: .
     command: python app.py
     ports:
@@ -12,6 +14,7 @@ services:
       - type: volume
         source: counter-vol
         target: /code
+  # build the container from the image pull from docker-hub
   redis:
     image: "redis:alpine"
     networks:
