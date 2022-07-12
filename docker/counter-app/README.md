@@ -8,8 +8,9 @@ Simple flask app that counts web site visits and stored in a default Redis backe
 	sudo apt-get install docker-compose-plugin
 
 - build docker `docker-compose.yml`: `sudo docker compose up`
-- stop the docker-compose: `sudo docker compose stop` or `Ctrl + C` or `docker compose down`
-- start the docker-compose again: `sudo docker compose start` (*You can not start docker compose at directory where does not have docker-compose.yml*)
+- stop the docker-compose: `sudo docker compose stop` or `Ctrl + C`
+- stop and delete the container : `sudo docker compose down`
+- start the docker-compose again: `sudo docker compose start` (*You can not start docker compose at directory where does not have docker-compose.yml*) `sudo docker compose restart`
 
 **References:**
 - Docker Deep Dive book (Compose chapter)
