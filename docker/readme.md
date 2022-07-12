@@ -146,6 +146,10 @@ the `password` and the `username` store in `.json`
 
     sudo docker login
 
+**23/ logs inside the container**
+
+    sudo docker logs
+    
 - get help with `docker volume`: `sudo docker volume --help`
 - list your volumes: `sudo docker volume ls`
 - inspect specific volume: `sudo docker volume inspect [your_volume]`
