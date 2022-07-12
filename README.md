@@ -36,6 +36,10 @@
 
 [docker_hub](https://hub.docker.com/)
 
+[Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://www.youtube.com/watch?v=3c-iBn73dDE)
+
+[docker-swarm](https://www.youtube.com/watch?v=YYfefejSgWY)
+
 [docker-python](https://www.youtube.com/watch?v=bi0cKgmRuiA&list=PLsM05n4rlXWTamBIPSom7mQVA-xooDkxw)
 
 [docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo&list=PLsM05n4rlXWTamBIPSom7mQVA-xooDkxw)
