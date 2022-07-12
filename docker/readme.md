@@ -97,6 +97,7 @@ delete all images
 
     docker exec -it [container id] /bin/sh
     docker exec -it 4a956bc0df6e /bin/sh
+    docker exec -it 4a956bc0df6e /sh
     
 **13/ commit your change**
 
@@ -128,15 +129,14 @@ You can create container from a image then change something and commit to create
 
     sudo docker manifest inspect ubuntu | grep 'architecture\|os'
     
-    
+sub3    
+
 **20/ tag local image**
 
 if you want push your local image into docker_hub,you must give it a tag
 
     sudo docker tag [your_image] [your_repository]/[your_version]
     sudo docker tag  0e5574283393 fedora/httpd:version1.0
-    
-*sub3*
 
 **Example1**
 
