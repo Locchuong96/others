@@ -16,17 +16,17 @@ The usage is simple, Declare your requirement as stacks of services,and let dock
 
 **Concepts**
 
--*Service:* A service is the definition of the tasks to execute on the swarm nodes.
+- *Service:* A service is the definition of the tasks to execute on the swarm nodes.
     - which image to use
     - how many containers to run
     - which commands to execute inside containers.
     - which port, volumes,network etc to use
 
--*Task* a task carries a docker container nad the commands to run inside the container.
+- *Task* a task carries a docker container nad the commands to run inside the container.
     - Once a task is assigned to a node, it cannot move to another node.
     - It can only run on the assigned node or fail.
 
-*Manager nodes* is the machine we communicate with
+- *Manager nodes* is the machine we communicate with
 We do everything in the `manage nodes`:
     - Assigns to other nodes
     - Manager nodes handle cluster management tasks: maintaining cluster state,scheduling services, and serving swarm mode HTTP API endpoints.
