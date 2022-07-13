@@ -151,6 +151,29 @@ docker installed in linux in directory `var/lib/docker` and you need (superuser 
 - inspect specific volume: `sudo docker volume inspect [your_volume]`
 - remove specific volume folder: `sudo docker rm [your_volume]`
 
+there are 3 type of `volume`:
+
+- `Host volume`: you decide where on the host file system the referenc is made
+
+- `Anonymous volue` for each container a folder is generated that gets mounted, your data will mount in the directory `var/lib/docker/volumes/[folder_name]/_data`
+
+    docker run
+        -v [host_directory]:[container_directory]
+        -v /home/mount/data:/var/lib/mysql/data
+
+- `Named Volume`: you can reference the volume just by name, should be used in production
+
+    version:  '3'
+    services:
+        mongodb:
+            image: mongo
+            ports:
+             - 27017:27017
+            volumes:
+             - db-data:/var/lib/mysql/data
+    
+    docker run
+        -v /var/lib/mysql/data
 **22/ docker login**
 the `password` and the `username` store in `.json`
 
