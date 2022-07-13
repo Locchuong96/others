@@ -4,7 +4,7 @@ Before starting `docker swarm` please refer to the [docker](#Docker) below.
 Agenda
 - container orchestration
 - What is docker swarm?
-- Create Swarm cluste
+- Create Swarm cluster
 - Setup Manager/Worker
 - Create Service
 - Manage Service
