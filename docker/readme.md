@@ -1,11 +1,8 @@
 ## Docker Swarm
 Before starting `docker swarm` please refer to the [docker](#Docker) below.
-Docker Swarm is a technique in which we join multiple docker engines running on different hosts use them together as a cluster,
-The usage is simple, Declare your requirement as stacks of services,and let docker swarm handle the rest
 
 Agenda
 - container orchestration
-
 - What is docker swarm?
 - Create Swarm cluste
 - Setup Manager/Worker
@@ -14,6 +11,26 @@ Agenda
 - Docker Config
 - Docker Healthcheck
 
+Docker Swarm is a technique in which we join multiple docker engines running on different hosts use them together as a cluster,
+The usage is simple, Declare your requirement as stacks of services,and let docker swarm handle the rest.
+
+**Concepts**
+
+-*Service:* A service is the definition of the tasks to execute on the swarm nodes.
+    - which image to use
+    - how many containers to run
+    - which commands to execute inside containers.
+    - which port, volumes,network etc to use
+
+-*Task* a task carries a docker container nad the commands to run inside the container.
+    - Once a task is assigned to a node, it cannot move to another node.
+    - It can only run on the assigned node or fail.
+
+*Manager nodes* is the machine we communicate with
+We do everything in the `manage nodes`:
+    - Assigns to other nodes
+    - Manager nodes handle cluster management tasks: maintaining cluster state,scheduling services, and serving swarm mode HTTP API endpoints.
+    - The managers maintain a consistent state fo the swarm and services running on it.
 ## Docker
 
 you can run docker CLI by familiar terminal ex: `git_bash`, `cmd`,etc. the `input` function can not be execute in the docker container.
