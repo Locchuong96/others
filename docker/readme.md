@@ -171,6 +171,8 @@ there are 3 type of `volume`:
              - 27017:27017
             volumes:
              - db-data:/var/lib/mysql/data
+    volumes:
+        db-data
     
     docker run
         -v /var/lib/mysql/data
