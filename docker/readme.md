@@ -1,3 +1,18 @@
+## Docker Swarm
+Before starting `docker swarm` please refer to the [docker](#Docker) below
+
+Agenda
+- container orchestration
+- What is docker swarm?
+- Create Swarm cluste
+- Setup Manager/Worker
+- Create Service
+- Manage Service
+- Docker Config
+- Docker Healthcheck
+
+## Docker
+
 you can run docker CLI by familiar terminal ex: `git_bash`, `cmd`,etc. the `input` function can not be execute in the docker container.
 This is my trick `you get six, you give five and remain one to keep track`
 
