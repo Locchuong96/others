@@ -17,8 +17,8 @@ docker concepts
 
 - docker registry: `regitryDomain/imageName:tag`
 
-    sudo docker pull mongo:4.2
-    sudo docker pull docker.io/library/mongo:4.2
+        sudo docker pull mongo:4.2
+        sudo docker pull docker.io/library/mongo:4.2
 
 when you need to get help `docker [command] --help`
 
