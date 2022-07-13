@@ -155,6 +155,12 @@ the `password` and the `username` store in `.json`
 
     sudo docker logs
   
+**24/ docker prune**
+remove useless object
+
+    sudo docker volume prune
+    sudo docker network prune
+
 **Example1**
 
     # this is a comment in docker
