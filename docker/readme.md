@@ -4,7 +4,7 @@ This is my trick `you get six, you give five and remain one to keep track`
 [test your docker knowlegdes](https://kodekloud.com/courses/labs-docker-for-the-absolute-beginner-hands-on/?utm_source=youtube_fcc&utm_medium=labs&utm_campaign=docker)
 
 docker concepts
-
+    
     [Dockerfile],[Image],[Container]
 
 - `Dockerfile`: is a `blueprint` for building images
@@ -12,8 +12,13 @@ docker concepts
 - `Image`: is a template for running `container`
 
 - `Container`: is running process
+    
+    docker [optional] [command] [argument]
 
-        docker [optional] [command] [argument]
+- docker registry: `regitryDomain/imageName:tag`
+
+    sudo docker pull mongo:4.2
+    sudo docker pull docker.io/library/mongo:4.2
 
 when you need to get help `docker [command] --help`
 
