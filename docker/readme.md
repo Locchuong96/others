@@ -159,9 +159,11 @@ if you want push your local image into docker_hub,you must give it a tag
     sudo docker tag  0e5574283393 fedora/httpd:version1.0
     
 **21/ docker volume**
+
 docker installed in linux in directory `var/lib/docker` and you need (superuser permission) `sudo su` to access, when use `docker volume`, the `./docker/volumes` will contain the floder created by volume.
 
 **22/ docker start**
+
 start a stopped container again with terminal attach: `sudo docker start -a [your_container]`
 
 - get help with `docker volume`: `sudo docker volume --help`
@@ -173,7 +175,7 @@ there are 3 type of `volume`:
 
 - `Host volume`: you decide where on the host file system the referenc is made
 
-- `Anonymous volue` for each container a folder is generated that gets mounted, your data will mount in the directory `var/lib/docker/volumes/[folder_name]/_data`
+- `Anonymous volue`: for each container a folder is generated that gets mounted, your data will mount in the directory `var/lib/docker/volumes/[folder_name]/_data`
 
     docker run
         -v [host_directory]:[container_directory]
@@ -212,7 +214,7 @@ remove useless object
 **25/ docker inside the docker (DooD Method)**
     
 - pull docker image: `sudo docker pull docker`
-- run mount docker Unix socket: `sudo docker run -v /var/lib/docker.sock:/var/lib/docker.sock docker`
+- run mount docker Unix socket: `sudo docker run -v /var/run/docker.sock:/var/run/docker.sock docker`
 - start your container: `sudo docker start [your_container]`
 - stop your container: `sudo docker stop [your_container]`
 
