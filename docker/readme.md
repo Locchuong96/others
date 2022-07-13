@@ -1,8 +1,11 @@
 ## Docker Swarm
-Before starting `docker swarm` please refer to the [docker](#Docker) below
+Before starting `docker swarm` please refer to the [docker](#Docker) below.
+Docker Swarm is a technique in which we join multiple docker engines running on different hosts use them together as a cluster,
+The usage is simple, Declare your requirement as stacks of services,and let docker swarm handle the rest
 
 Agenda
 - container orchestration
+
 - What is docker swarm?
 - Create Swarm cluste
 - Setup Manager/Worker
