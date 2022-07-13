@@ -209,6 +209,13 @@ remove useless object
     sudo docker volume prune
     sudo docker network prune
 
+**25/ docker inside the docker (DooD Method)**
+    
+- pull docker image: `sudo docker pull docker`
+- run mount docker Unix socket: `sudo docker run -v /var/lib/docker.sock:/var/lib/docker.sock docker`
+- start your container: `sudo docker start [your_container]`
+- stop your container: `sudo docker stop [your_container]`
+
 **Example1**
 
     # this is a comment in docker
