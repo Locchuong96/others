@@ -3,13 +3,13 @@
 Swarm service configs, allow you to store non-sensitive information, such as configuration files in the Cluster
 Any service can use this without the need to bind-mount configuratui files into the containers or use environment variables
 
-	[Final image]
-	      |
-	   [Centos]
-              |	
-            [App]
-              |	
-        [Web.conf(dev)]->DEV->QA->PERF->STAGE->PROD
+		[Final image]
+		      |
+		   [Centos]
+		      |	
+		    [App]
+		      |	
+		[Web.conf(dev)]->DEV->QA->PERF->STAGE->PROD
 
 - When you grant a newly-created or running service access to a config, the config is mounted as a file in the container
 - The location of the mount point within the container defaults to `/<config-name>`in Linux containers, In Windows containers, configs are all mounted into `C:\ProgramData\Docker\configs`
