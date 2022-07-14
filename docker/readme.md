@@ -11,7 +11,6 @@ install docker machine, you can use `&&` if you want to execute whole command to
     
 - list docker machine `docker-machine ls`
 
-
 ## Docker Swarm
 Before starting `docker swarm` please refer to the [docker](#Docker) below.
 
