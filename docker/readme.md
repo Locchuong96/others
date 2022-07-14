@@ -9,6 +9,11 @@ install docker machine, you can use `&&` if you want to execute whole command to
     
     chmod +x /usr/local/bin/docker-machine
     
+install virtualbox
+
+    sudo apt-get update
+    sudo apt-get install virtualbox
+    
 - list docker machine `docker-machine ls`
 
 ## Docker Swarm
