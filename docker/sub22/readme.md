@@ -10,9 +10,10 @@
 
 		chmod +x /usr/local/bin/docker-machine
 
-error
-	Running pre-create checks...
-	Error with pre-create check: "VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path"
+- error
+
+		Running pre-create checks...
+		Error with pre-create check: "VBoxManage not found. Make sure VirtualBox is installed and VBoxManage is in the path"
 
 - install virualbox
 
