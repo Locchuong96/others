@@ -306,3 +306,11 @@ remove useless object
     
     # exit container
     exit
+## References
+
+[D15 - Sử dụng docker-machine tạo các Docker Host](https://www.youtube.com/watch?v=XPQqRK-lFyo)
+[D16 - Khởi tạo và quản lý Docker Swarm](https://www.youtube.com/watch?v=6a529awrb4Q)
+[D17 - Chạy dịch vụ trên Docker Swarm](https://www.youtube.com/watch?v=QcURXYCZSuY)
+[D18 - Sử dụng docker stack chạy các dịch vụ trên swarm](https://www.youtube.com/watch?v=fedUjqpfT0A&list=PLwJr0JSP7i8At14UIC-JR4r73G4hQ1CXO&index=19)
+[D19 - Mạng Overlay trong Docker Swarm](https://www.youtube.com/watch?v=aSQjoCqOx7k&list=PLwJr0JSP7i8At14UIC-JR4r73G4hQ1CXO&index=20)
+[D20 - Volume các ổ đĩa trong Docker Swarm](https://www.youtube.com/watch?v=DFQaj3Omo1E)
