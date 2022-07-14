@@ -8,6 +8,8 @@ install docker machine, you can use `&&` if you want to execute whole command to
     sudo mv /tmp/docker-machine /usr/local/bin/docker-machine
     
     chmod +x /usr/local/bin/docker-machine
+    
+- list docker machine `docker-machine ls`
 
 
 ## Docker Swarm
