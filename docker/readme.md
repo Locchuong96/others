@@ -8,7 +8,7 @@ Agenda
 - [Setup Manager/Worker](https://github.com/Locchuong96/others/tree/main/docker/sub17)
 - [Create Service](https://github.com/Locchuong96/others/tree/main/docker/sub18)
 - [Manage Service](https://github.com/Locchuong96/others/tree/main/docker/sub19)
-- Docker Config
+- [Docker Config](https://github.com/Locchuong96/others/tree/main/docker/sub20)
 - Docker Healthcheck
 
 Docker Swarm is a technique in which we join multiple docker engines running on different hosts use them together as a cluster,
