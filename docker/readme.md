@@ -260,6 +260,9 @@ remove useless object
 - start your container: `sudo docker start [your_container]`
 - stop your container: `sudo docker stop [your_container]`
 
+**26/ docker info**
+get docker info: `sudo docker info`
+
 **Example1**
 
     # this is a comment in docker
