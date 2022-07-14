@@ -191,6 +191,10 @@ start a stopped container again with terminal attach: `sudo docker start -a [you
 - inspect specific volume: `sudo docker volume inspect [your_volume]`
 - remove specific volume folder: `sudo docker rm [your_volume]`
 
+**23/ copy file into container**
+Syntax to Copy from Container to Docker Host  
+    docker cp {options} CONTAINER:SRC_PATH DEST_PATH 
+
 there are 3 type of `volume`:
 
 - `Host volume`: you decide where on the host file system the referenc is made
