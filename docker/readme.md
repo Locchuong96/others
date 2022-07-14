@@ -1,3 +1,15 @@
+## Docker Machine
+install docker machine, you can use `&&` if you want to execute whole command together
+
+    base=https://github.com/docker/machine/releases/download/v0.16.0 
+    
+    curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine
+    
+    sudo mv /tmp/docker-machine /usr/local/bin/docker-machine
+    
+    chmod +x /usr/local/bin/docker-machine
+
+
 ## Docker Swarm
 Before starting `docker swarm` please refer to the [docker](#Docker) below.
 
