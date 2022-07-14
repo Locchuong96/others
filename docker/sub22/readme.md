@@ -19,7 +19,7 @@ error
 	sudo apt-get update
 	sudo apt-get install virtualbox
 
-- create virtual machine: `sudo docker-machine -driver virtualbox machine1`
+- create virtual machine: `sudo docker-machine create -driver virtualbox machine1`
 - list your all virtual machine: `sudo docker-machine ls`
 - stop your virtual machine  `sudo docker-machine stop [your_machine]`
 - start your virtual machine `sudo docker-machine start [your_machine]`
