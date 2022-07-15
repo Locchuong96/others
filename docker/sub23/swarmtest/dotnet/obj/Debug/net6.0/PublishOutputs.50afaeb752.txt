@@ -1,0 +1,7 @@
+/home/loc/Workspace/sub23/swarmtest/dotnet/bin/Debug/net6.0/publish/dotnet
+/home/loc/Workspace/sub23/swarmtest/dotnet/bin/Debug/net6.0/publish/appsettings.Development.json
+/home/loc/Workspace/sub23/swarmtest/dotnet/bin/Debug/net6.0/publish/appsettings.json
+/home/loc/Workspace/sub23/swarmtest/dotnet/bin/Debug/net6.0/publish/dotnet.dll
+/home/loc/Workspace/sub23/swarmtest/dotnet/bin/Debug/net6.0/publish/dotnet.deps.json
+/home/loc/Workspace/sub23/swarmtest/dotnet/bin/Debug/net6.0/publish/dotnet.runtimeconfig.json
+/home/loc/Workspace/sub23/swarmtest/dotnet/bin/Debug/net6.0/publish/dotnet.pdb
