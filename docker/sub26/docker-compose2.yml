@@ -1,0 +1,89 @@
+version: "3.7"
+
+services:
+  # samba service share file for nodes
+  samba:
+    image: locchuong/samba
+    ports:
+      - 139:139
+      - 145:145
+    environment:
+      smbuser: smbuser
+      password: 1234567
+    # mapport inside docker-host(node) to samba service
+    volumes:
+      - /home/data/:/data/ # data is default folder share data
+    deploy:
+      replicas: 3
+      placement:
+        constraints: # constrain container will be create inside specific nodes, for keep data inside node1 (because you create in node1)
+         - node.role==manager
+
+  service1:
+    image: busybox:latest
+    networks:
+      - net1
+    ports:
+      - 8085:8085
+    volumes: # before deploy
+      - vol1:/d1/
+      - vol2:/d2/
+    command: top 
+    deploy:
+      replicas: 5
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 150MB
+        reservations:
+          cpus: '0.25'
+          memory: 50MB
+      restart_policy:
+        condition: on-failure
+
+  service2:
+    image: busybox:latest
+    networks:
+      - net2
+    ports:
+      - 8086:8085
+    volumes:
+      - vol1:/d1/
+      - vol2:/d2/
+    command: top
+    deploy:
+      replicas: 5
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 150MB
+        reservations:
+          cpus: '0.25'
+          memory: 50MB
+      restart_policy:
+        condition: on-failure
+
+
+networks:
+  net1:
+  net2:
+    driver: overlay
+    name: www-net2
+
+volumes:
+  
+  vol1:
+    name: v1
+    #driver: local
+    driver_opts:
+      o: bind
+      device: "/home/"
+      type: none
+  
+  vol2:
+    driver: local
+    name: v2
+    driver_opts:
+      type: cifs
+      device: //192.168.99.100/data
+      o: "username=smbuser,password=1234567,file_mode=0777,dir_mode=0777"

@@ -1,0 +1,87 @@
+version: "3.7"
+
+services:
+  ssh:
+    image: locchuong/ssh-server
+    ports:
+      - 2222:22
+    environment:
+      sshuder: sshuser
+      password: 1234567
+    volumes:
+      - /home/data1/:/data/
+    deploy:
+      replicas: 2
+      placement:
+        constraints:
+          - node.rode==manager
+
+  service1:
+    image: busybox:latest
+    networks:
+      - net1
+    ports:
+      - 8085:8085
+    volumes: # before deploy
+      - vol1:/d1/
+      - vol2:/d2/
+    command: top 
+    deploy:
+      replicas: 5
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 150MB
+        reservations:
+          cpus: '0.25'
+          memory: 50MB
+      restart_policy:
+        condition: on-failure
+
+  service2:
+    image: busybox:latest
+    networks:
+      - net2
+    ports:
+      - 8086:8085
+    volumes:
+      - vol1:/d1/
+      - vol2:/d2/
+    command: top
+    deploy:
+      replicas: 5
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 150MB
+        reservations:
+          cpus: '0.25'
+          memory: 50MB
+      restart_policy:
+        condition: on-failure
+
+networks:
+  net1:
+  net2:
+    driver: overlay
+    name: www-net2
+
+volumes:
+  
+  vol1:
+    name: v1
+    #driver: local
+    driver_opts:
+      o: bind
+      device: "/home/"
+      type: none
+
+  vol2:
+    name: v2
+    driver: vieux/sshfs # install vieux plugin `docker plugin install --grant-all-permissions vieux/sshfs`
+    driver_opts:
+      sshcmd: "sshuser@192.168.99.100:/data"
+      password: 1234567
+      port: 2222
+      # IdentityFile://
+      allow_other: ""

@@ -1,0 +1,62 @@
+version: "3.7"
+
+services:
+
+  service1:
+    image: busybox:latest
+    networks:
+      - net1
+    ports:
+      - 8085:8085
+    volumes: # before deploy
+      - vol1:/d1/
+    command: top 
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 150MB
+        reservations:
+          cpus: '0.25'
+          memory: 50MB
+      restart_policy:
+        condition: on-failure
+
+  service2:
+    image: busybox:latest
+    networks:
+      - net2
+    ports:
+      - 8086:8085
+    volumes:
+      - vol1:/d1/
+    command: top
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 150MB
+        reservations:
+          cpus: '0.25'
+          memory: 50MB
+      restart_policy:
+        condition: on-failure
+    volumes:
+      - vol1:/d1/
+
+networks:
+  net1:
+  net2:
+    driver: overlay
+    name: www-net2
+
+volumes:
+  vol1:
+    name: v1
+    #driver: local
+    driver_opts:
+      o: bind
+      device: "/home/"
+      type: none
