@@ -2,12 +2,14 @@
 
 ### Tips for coding
 #### confidence
-- **easy to local testing**: your source code must be easy to run locally for testing. if it's not simple, you have to find the way to test your code
+- **1/ easy to local testing:** your source code must be easy to run locally for testing. if it's not simple, you have to find the way to test your code
 #### detect region problem
-- **keep track your code**: don't change so much when coding. If your soucre run ok, then you change one thing and it make it error, then you can quickly narrow it down the problem's region. But if you change so something it is really hard to say where is the region problem.
-- **comment the suspect region** this is an the way to detect problem, let comment all your suspect region then run your source code again, if it work, then uncomment part-to-part.
-- **one small change**: some time you can not easy to see what wrong with your code. then let change a small thing in your code like `;` or 1 single command until your code work again.
-
+- **2/ keep track your code:** don't change so much when coding. If your soucre run ok, then you change one thing and it make it error, then you can quickly narrow it down the problem's region. But if you change so something it is really hard to say where is the region problem.
+- **3/ comment the suspect region:** this is an the way to detect problem, let comment all your suspect region then run your source code again, if it work, then uncomment part-to-part and run again.
+#### anatomy 
+- **4/ one small change:** some time you can not easy to see what wrong with your code. then let change a small thing in your code like `;` or 1 single command until your code work again.
+- **5/ logout:** printout the result or return of the function to make sure your code work the same your thinking. And logout can let you know where the code is crashed.
+- **6/ google search your error:** copy the error print out on your terminal and search it in google, 90% sure that you are not the first one get this error, `stack-overflow` and some websites or blog can give you the answer. 
 
 **1/ repo bagdes**
 
