@@ -1,5 +1,14 @@
 ### This repository contain something support coding
 
+### Tips for coding
+#### confidence
+- **easy to local testing**: your source code must be easy to run locally for testing. if it's not simple, you have to find the way to test your code
+#### detect region problem
+- **keep track your code**: don't change so much when coding. If your soucre run ok, then you change one thing and it make it error, then you can quickly narrow it down the problem's region. But if you change so something it is really hard to say where is the region problem.
+- **comment the suspect region** this is an the way to detect problem, let comment all your suspect region then run your source code again, if it work, then uncomment part-to-part.
+- **one small change**: some time you can not easy to see what wrong with your code. then let change a small thing in your code like `;` or 1 single command until your code work again.
+
+
 **1/ repo bagdes**
 
 [Repo badges](https://shields.io/)
