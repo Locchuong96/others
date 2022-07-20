@@ -1,7 +1,7 @@
 ### This repository contain something support coding
 
 ### Tips for coding
-#### confidence
+<p style="color:red;">confidence</p>
 - **1/ easy to local testing:** your source code must be easy to run locally for testing. if it's not simple, you have to find the way to test your code
 #### detect region problem
 - **2/ keep track your code:** don't change so much when coding. If your soucre run ok, then you change one thing and it make it error, then you can quickly narrow it down the problem's region. But if you change so something it is really hard to say where is the region problem.
