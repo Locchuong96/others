@@ -9,6 +9,10 @@
 
 **Reference**
 
+[ruanyf-simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts)
+
+[dylanaraps-pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)
+
 [1/ inotify-tools](https://helpmanual.io/packages/apt/inotify-tools/)
 
 [2/ grep](https://www.gnu.org/software/grep/manual/grep.html)
