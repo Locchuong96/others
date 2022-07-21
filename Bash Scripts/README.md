@@ -9,9 +9,9 @@
 
 **Reference**
 
-[ruanyf-simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts)
-
 [dylanaraps-pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)
+
+[ruanyf-simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts)
 
 [1/ inotify-tools](https://helpmanual.io/packages/apt/inotify-tools/)
 
