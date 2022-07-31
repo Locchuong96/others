@@ -8,17 +8,17 @@
 - Introduction
 
 **Chapter 1: Setting up the tools**
-- Tools
-- Installing C++ Compilers on Windows
-- Installing VS Code on Windows
-- Configuring Visual Studio Code for C++ on Windows
-- Installing C++ Compilers on Linux
-- Installing Visual Studio Code on Linux
-- Configuring Visual Studio Code for C++ on Linux
-- Installing C++ Compilers on MacOs
-- Installing Visual Studio Code on MacOs
-- Configuring Visual Studio Code for C++ on MacOs
-- Online Compilers
+- [Tools](/C++/sub1)
+- [Installing C++ Compilers on Windows](/C++/sub2)
+- [Installing VS Code on Windows](/C++/sub2)
+- [Configuring Visual Studio Code for C++ on Windows](/C++/sub2)
+- [Installing C++ Compilers on Linux](/C++/sub3)
+- [Installing Visual Studio Code on Linux](/C++/sub3)
+- [Configuring Visual Studio Code for C++ on Linux](/C++/sub3)
+- [Installing C++ Compilers on MacOs](/C++/sub4)
+- [Installing Visual Studio Code on MacOs](/C++/sub4)
+- [Configuring Visual Studio Code for C++ on MacOs](/C++/sub4)
+- [Online Compilers](/C++/sub5)
 
 **Chapter 2: Diving in**
 - Your First C++ Program
