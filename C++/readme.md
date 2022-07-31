@@ -2,7 +2,7 @@
 
 ### course content
 
-<detail><summary>click to expand</summary>
+<details><summary>click to expand</summary>
 <p>
 	Introduction
 
@@ -187,11 +187,11 @@
 	Pure virtual functions and abstract classes
 	Abstract Classes as Interfaces
 </p>
-</detail>
+</details>
 
 ### course's expectation
 
-<detail><summary>click to expand</summary>
+<details><summary>click to expand</summary>
 <p>
 	- The bare fundamentals
 
@@ -205,7 +205,7 @@
 
 	- Cmake
 </p>
-</detail>
+</details>
 
 ### references
 
