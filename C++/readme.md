@@ -192,9 +192,6 @@
 
 ### course's expectation
 
-<details><summary>click to expand</summary>
-<p>
-
 - The bare fundamentals
 
 - Procedural programming
@@ -206,8 +203,6 @@
 - Using the tools: compilers and editors
 
 - Cmake
-</p>
-</details>
 
 ### references
 
