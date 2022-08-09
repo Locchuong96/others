@@ -21,13 +21,13 @@
 - [Online Compilers](/C++/sub6)
 
 **Chapter 2: Diving in**
-- Your First C++ Program
-- Comments
-- Errors and Warnings
-- Statements and Functions
-- Data input and output
-- C++ Program Execution Model
-- C++ core language Vs Standard library Vs STL
+- [Your First C++ Program](/C++/sub7)
+- [Comments](/C++/sub8)
+- [Errors and Warnings](/C++/sub9)
+- [Statements and Functions](/C++/sub10)
+- [Data input and output](/C++/sub11)
+- [C++ Program Execution Model](/C++/sub12)
+- [C++ core language Vs Standard library Vs STL](/C++/sub13)
 
 **Chapter 3: Variables and data types**
 - Variables and data types Introduction
