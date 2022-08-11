@@ -30,16 +30,16 @@
 - [C++ core language Vs Standard library Vs STL](/C++/sub13)
 
 **Chapter 3: Variables and data types**
-- [Variables and data types Introduction]()
-- [Number Systems]()
-- [Integer types : Decimals and Integers]()
-- [Integer Modifiers]()
-- [Fractional Numbers]()
-- [Booleans]()
-- [Characters And Text]()
-- [Auto]()
-- [Assignments]()
-- [Variables and data types summary]()
+- [Variables and data types Introduction](/C++/sub14)
+- [Number Systems](/C++/sub15)
+- [Integer types : Decimals and Integers](/C++/sub16)
+- [Integer Modifiers](/C++/sub17)
+- [Fractional Numbers](/C++/sub18)
+- [Booleans](/C++/sub119)
+- [Characters And Text](/C++/sub20)
+- [Auto](/C++/sub21)
+- [Assignments](/C++/sub22)
+- [Variables and data types summary](/C++/sub23)
 
 **Chapter 4: Operations on Data**
 - Introduction on Data operations
