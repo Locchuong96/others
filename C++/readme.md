@@ -43,16 +43,16 @@
 
 **Chapter 4: Operations on Data**
 - [Introduction on Data operations](/C++/sub23)
-- [Basic Operations](/C++/sub24)
-- [Precedence and Associativity](/C++/sub25)
-- [Prefix/Postfix Increment & Decrement](/C++/sub26)
-- [Compound Assignment Operators](/C++/sub27)
-- [Relational Operators](/C++/sub28)
-- [Logical Operators](/C++/sub29)
-- [Output formatting](/C++/sub30)
-- [Numeric Limits](/C++/sub31)
-- [Math Functions](/C++/sub32)
-- [Weird Integral Types](/C++/sub33)
+- [Basic Operations](/C++/sub23)
+- [Precedence and Associativity](/C++/sub24)
+- [Prefix/Postfix Increment & Decrement](/C++/sub25)
+- [Compound Assignment Operators](/C++/sub26)
+- [Relational Operators](/C++/sub27)
+- [Logical Operators](/C++/sub28)
+- [Output formatting](/C++/sub29)
+- [Numeric Limits](/C++/sub30)
+- [Math Functions](/C++/sub31)
+- [Weird Integral Types](/C++/sub32)
 - Data Operations Summary
 
 **Chapter 5: Flow Control**
