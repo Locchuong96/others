@@ -215,10 +215,6 @@ Some manipulator:
 		std::cout << "f : " << f << std::endl;
 		std::cout << "g : " << g << std::endl;
 
-![table](/C++/sub29/table.png)
-
-![table2](/C++/sub29/table2.png)
-
 **references**
 
 [link](https://en.cppreference.com/w/cpp/io/manip)
