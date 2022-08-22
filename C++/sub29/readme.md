@@ -215,9 +215,9 @@ Some manipulator:
 		std::cout << "f : " << f << std::endl;
 		std::cout << "g : " << g << std::endl;
 
-![table](/sub29/table.png)
+![table](./table.png)
 
-![table2](/sub29/table2.png)
+![table2](./table2.png)
 
 **references**
 
