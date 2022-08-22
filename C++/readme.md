@@ -33,12 +33,12 @@
 - [Variables and data types Introduction](/C++/sub14)
 - [Number Systems](/C++/sub15)
 - [Integer types : Decimals and Integers](/C++/sub16)
-- [Integer Modifiers](/C++/sub 17)
-- [Fractional Numbers](/C++/sub 18)
-- [Booleans](/C++/sub 19)
-- [Characters And Text](/C++/sub 20)
-- [Auto](/C++/sub 21)
-- [Assignments](/C++/sub 22)
+- [Integer Modifiers](/C++/sub17)
+- [Fractional Numbers](/C++/sub18)
+- [Booleans](/C++/sub19)
+- [Characters And Text](/C++/sub20)
+- [Auto](/C++/sub21)
+- [Assignments](/C++/sub22)
 - Variables and data types summary
 
 **Chapter 4: Operations on Data**
