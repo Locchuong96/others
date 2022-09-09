@@ -56,11 +56,11 @@
 - Data Operations Summary
 
 **Chapter 5: Flow Control**
-- Flow Control Introduction
-- If Statements
-- Else If
-- Switch
-- Ternary Operators
+- [Flow Control Introduction](/C++/sub33)
+- [If Statements](/C++/sub34)
+- [Else If](/C++/sub35)
+- [Switch](/C++/sub36)
+- [Ternary Operators](/C++/sub37)
 - Flow Control Summary
 
 **Chapter 6: Loops**
