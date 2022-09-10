@@ -70,11 +70,11 @@
 - [Do While Loop](/C++/sub41)
 
 **Chapter 7: Arrays**
-- Introduction to Arrays
-- Declaring and using arrays
-- Size of an array
-- Arrays of characters
-- Array Bounds
+- [Introduction to Arrays](/C++/sub42)
+- [Declaring and using arrays](/C++/sub43)
+- [Size of an array](/C++/sub44)
+- [Arrays of characters](/C++/sub45)
+- [Array Bounds](/C++/sub46)
 
 **Chapter 8: Pointers**
 - Introduction to Pointers
