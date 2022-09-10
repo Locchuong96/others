@@ -64,10 +64,10 @@
 - Flow Control Summary
 
 **Chapter 6: Loops**
-- Loops Introduction
-- For Loop
-- While Loop
-- Do While Loop
+- [Loops Introduction](/C++/sub38)
+- [For Loop](/C++/sub39)
+- [While Loop](/C++/sub40)
+- [Do While Loop](/C++/sub41)
 
 **Chapter 7: Arrays**
 - Introduction to Arrays
