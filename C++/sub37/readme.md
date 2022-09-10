@@ -32,3 +32,11 @@ We can use `ternary expression` instead: `result = (condition) ? option1 : optio
 	else{
 		result = option2;
 	}
+	
+Ternary Initialization
+
+	std::cout << std::endl;
+	std::cout << "speed" << std::endl;
+	bool fast = false;
+	int speed {fast ? 300 : 150}; // ternary initialization
+	std::cout << "The speed is: " << speed << std::endl;
