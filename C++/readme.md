@@ -77,16 +77,16 @@
 - [Array Bounds](/C++/sub46)
 
 **Chapter 8: Pointers**
-- Introduction to Pointers
-- Declaring and using pointers
-- Pointer to char
-- Program Memory Map Revisited
-- Dynamic Memory Allocation
-- Dangling Pointers
-- When new Fails
-- Null Pointer Safety
-- Memory Leaks
-- Dynamically allocated arrays
+- [Introduction to Pointers](/C++/sub47)
+- [Declaring and using pointers](/C++/sub48)
+- [Pointer to char](/C++/sub49)
+- [Program Memory Map Revisited](/C++/sub50)
+- [Dynamic Memory Allocation](/C++/sub51)
+- [Dangling Pointers](/C++/sub52)
+- [When new Fails](/C++/sub52)
+- [Null Pointer Safety](/C++/sub53)
+- [Memory Leaks](/C++/sub54)
+- [Dynamically allocated arrays](/C++/sub55)
 
 **Chapter 9: References**
 - Introduction to References
