@@ -89,10 +89,10 @@
 - [Dynamically allocated arrays](/C++/sub55)
 
 **Chapter 9: References**
-- Introduction to References
-- Declaring and using references
-- Comparing pointers and references
-- References and const
+- [Introduction to References](/C++/sub58)
+- [Declaring and using references](/C++/sub59)
+- [Comparing pointers and references](/C++/sub60)
+- [References and const](/C++/sub61)
 
 **Chapter 10: Character Manipulation and Strings**
 - Introduction to Strings
