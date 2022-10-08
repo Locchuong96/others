@@ -72,3 +72,7 @@
 **8/ os system**
 
 [os-system](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Environment_Variables.html)
+
+**9/ Batch Script Windows**
+
+[Batch The Windows Command-Line](https://www.youtube.com/watch?v=JbAyxKjUPs0&list=PL69BE3BF7D0BB69C4)
