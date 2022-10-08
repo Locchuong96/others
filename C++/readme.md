@@ -212,6 +212,8 @@
 
 [The-C-20-Masterclass-Source-Code](https://github.com/rutura/The-C-20-Masterclass-Source-Code)
 
+[standard-c-library-header-files](https://www.ibm.com/docs/en/xl-c-and-cpp-aix/13.1.2?topic=reference-standard-c-library-header-files)
+
 [isocpp](https://isocpp.org/)
 
 [cplusplus](https://cplusplus.com/)
