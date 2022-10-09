@@ -95,12 +95,12 @@
 - [References and const](/C++/sub61)
 
 **Chapter 10: Character Manipulation and Strings**
-- Introduction to Strings
-- Character Manipulation
-- C-string manipulation
-- C-String concatenation and copy
-- Introducing std::string
-- Declaring and using std::string
+- [Introduction to Strings](/C++/sub61)
+- [Character Manipulation](/C++/sub62)
+- [C-string manipulation](/C++/sub63)
+- [C-String concatenation and copy](/C++/sub64)
+- [Introducing std::string](/C++/sub65)
+- [Declaring and using std::string](/C++/sub66)
 
 **Chapter 11: Functions**
 - The One Definition Rule
