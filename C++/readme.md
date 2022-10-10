@@ -96,11 +96,11 @@
 
 **Chapter 10: Character Manipulation and Strings**
 - [Introduction to Strings](/C++/sub61)
-- [Character Manipulation](/C++/sub62)
-- [C-string manipulation](/C++/sub63)
-- [C-String concatenation and copy](/C++/sub64)
-- [Introducing std::string](/C++/sub65)
-- [Declaring and using std::string](/C++/sub66)
+- [Character Manipulation](/C++/sub63)
+- [C-string manipulation](/C++/sub64)
+- [C-String concatenation and copy](/C++/sub65)
+- [Introducing std::string](/C++/sub66)
+- [Declaring and using std::string](/C++/sub67)
 
 **Chapter 11: Functions**
 - The One Definition Rule
