@@ -103,13 +103,13 @@
 - [Declaring and using std::string](/C++/sub67)
 
 **Chapter 11: Functions**
-- The One Definition Rule
-- First Hand on C++ Functions
-- Function Declaration and Function Definitions
-- Multiple Files - Compilation Model Revisited
-- Pass by value
-- Pass by pointer
-- Pass by reference
+- [The One Definition Rule](/C++/sub68)
+- [First Hand on C++ Functions](/C++/sub69)
+- [Function Declaration and Function Definitions](/C++/sub70)
+- [Multiple Files - Compilation Model Revisited](/C++/sub71)
+- [Pass by value](/C++/sub72)
+- [Pass by pointer](/C++/sub73)
+- [Pass by reference](/C++/sub74)
 
 **Chapter 12: Getting Things out of functions**
 - Introduction to getting things out of functions
