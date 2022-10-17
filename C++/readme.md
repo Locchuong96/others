@@ -219,3 +219,5 @@
 [cplusplus](https://cplusplus.com/)
 
 [CodeBeauty](https://www.youtube.com/c/CodeBeauty/videos)
+
+[C++ projects](https://www.youtube.com/watch?v=Q5LT0G0X1-E&list=PLsPse_rAwAIpjis9XwQXs-uz7gwfu-pcd)
