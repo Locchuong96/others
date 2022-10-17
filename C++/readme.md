@@ -217,3 +217,5 @@
 [isocpp](https://isocpp.org/)
 
 [cplusplus](https://cplusplus.com/)
+
+[CodeBeauty](https://www.youtube.com/c/CodeBeauty/videos)
