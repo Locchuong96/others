@@ -28,7 +28,7 @@ The compiler:
 
 `[many sources] preprocessing [translation units] compilation [many objects] linking [one single executable file]`
 
-[multi-file](./multi-file.png)
+![multi-file](./multi-file.png)
 
 **ODR:** One Definition Rule: The same function implementation can not show up in the global namespace more than once.
 
