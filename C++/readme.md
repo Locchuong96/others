@@ -113,7 +113,7 @@
 
 **Chapter 12: Getting Things out of functions**
 - [Introduction to getting things out of functions](/C++/sub75)
-- [Input and output parameters](/C++/sub76)
+- [Input and output parameters](/C++/sub75)
 - [Returning from functions by value](/C++/sub76)
 
 **Chapter 13: Function Overloading**
