@@ -112,20 +112,20 @@
 - [Pass by reference](/C++/sub74)
 
 **Chapter 12: Getting Things out of functions**
-- Introduction to getting things out of functions
-- Input and output parameters
-- Returning from functions by value
+- [Introduction to getting things out of functions](/C++/sub75)
+- [Input and output parameters](/C++/sub76)
+- [Returning from functions by value](/C++/sub76)
 
 **Chapter 13: Function Overloading**
-- Function Overloading Introduction
-- Overloading with different parameters
+- [Function Overloading Introduction](/C++/sub77)
+- [Overloading with different parameters](/C++/sub78)
 
 **Chapter 14: Lambda functions**
-- Intro to Lambda Functions
-- Declaring and using lambda functions
-- Capture lists
-- Capture all in context
-- Summary
+- [Intro to Lambda Functions](/C++/sub79)
+- [Declaring and using lambda functions](/C++/sub80)
+- [Capture lists](/C++/sub81)
+- [Capture all in context](/C++/sub82)
+- [Summary](/C++/sub83)
 
 **Chapter 15: Function Templates**
 - Intro to function templates
