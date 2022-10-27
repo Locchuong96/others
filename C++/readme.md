@@ -125,14 +125,14 @@
 - [Declaring and using lambda functions](/C++/sub80)
 - [Capture lists](/C++/sub81)
 - [Capture all in context](/C++/sub82)
-- [Summary](/C++/sub83)
+- Summary
 
 **Chapter 15: Function Templates**
-- Intro to function templates
-- Trying out function templates
-- Template type deduction and explicit arguments
-- Template parameters by reference
-- Template specialization
+- [Intro to function templates](/C++/sub83)
+- [Trying out function templates](/C++/sub84)
+- [Template type deduction and explicit arguments](/C++/sub85)
+- [Template parameters by reference](/C++/sub86)
+- [Template specialization](/C++/sub87)
 
 **Chapter 16: C++20 Concepts Crash course**
 - Intro to C++20 Concepts
