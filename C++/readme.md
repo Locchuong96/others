@@ -196,17 +196,19 @@
 
 - Procedural programming
 
-- Lots of handson code writing
-
 - Advanced OOP with Inheritance and polymorphism
-
-- Using the tools: compilers and editors
 
 - Cmake
 
-[online compiler](https://wandbox.org/)
+[Wandbox online compiler](https://wandbox.org/)
 
 ### references
+
+[Top 10 C++ Projects Ideas for C++ Beginners](https://hackr.io/blog/cpp-projects)
+
+[50+ C/C++ Projects with Source Code](https://www.codewithc.com/c-projects-with-source-code/)
+
+[project-based-learning](https://github.com/practical-tutorials/project-based-learning)
 
 [C++ Programming Course - Beginner to Advanced](https://www.youtube.com/watch?v=8jLOx1hD3_o)
 
