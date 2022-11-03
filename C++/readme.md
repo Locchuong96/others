@@ -135,26 +135,26 @@
 - [Template specialization](/C++/sub87)
 
 **Chapter 16: C++20 Concepts Crash course**
-- Intro to C++20 Concepts
-- Using C++20 Concepts
-- Building your own C++20 Concepts
-- Zooming in on the requires clause
-- Combining C++20 Concepts
-- C++20 Concepts and auto
+- [Intro to C++20 Concepts](/C++/sub88)
+- [Using C++20 Concepts](/C++/sub89)
+- [Building your own C++20 Concepts](/C++/sub90)
+- [Zooming in on the requires clause](/C++/sub91)
+- [Combining C++20 Concepts](/C++/sub92)
+- [C++20 Concepts and auto](/C++/sub93)
 
 **Chapter 17: Classes**
-- Intro to classes
-- Your First Class
-- C++ Constructors
-- Defaulted constructors
-- Setters and Getters
-- Class Across Multiple Files
-- Arrow pointer call notation
-- Destructors
-- Order of Constructor Destructor Calls
-- The this Pointer
-- struct
-- Size of objects
+- [Intro to classes](/C++/sub94)
+- [Your First Class](/C++/sub95)
+- [C++ Constructors](/C++/sub96)
+- [Defaulted constructors](/C++/sub97)
+- [Setters and Getters](/C++/sub98)
+- [Class Across Multiple Files](/C++/sub99)
+- [Arrow pointer call notation](/C++/sub100)
+- [Destructors](/C++/sub101)
+- [Order of Constructor Destructor Calls](/C++/sub102)
+- [The this Pointer](/C++/sub103)
+- [struct](/C++/sub104)
+- [Size of objects](/C++/sub105)
 
 **Chapter 18: Inheritance**
 - Introduction to Inheritance
