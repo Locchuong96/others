@@ -204,6 +204,8 @@
 
 ### references
 
+[Top C++ Based Data Science And Machine Learning Libraries](https://www.marktechpost.com/2022/11/02/top-c-based-data-science-and-machine-learning-libraries/)
+
 [Top 10 C++ Projects Ideas for C++ Beginners](https://hackr.io/blog/cpp-projects)
 
 [50+ C/C++ Projects with Source Code](https://www.codewithc.com/c-projects-with-source-code/)
