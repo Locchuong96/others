@@ -157,18 +157,18 @@
 - [Size of objects](/C++/sub105)
 
 **Chapter 18: Inheritance**
-- Introduction to Inheritance
-- First try on Inheritance
-- Protected members
-- Base class access specifiers : Zooming in
-- Closing in on Private Inheritance
-- Resurrecting Members Back in Context
-- Default Constructors with Inheritance
-- Custom Constructors With Inheritance
-- Copy Constructors with Inheritance
-- Inheriting Base Constructors
-- Inheritance and Destructors
-- Reused Symbols in Inheritance
+- [Introduction to Inheritance](/C++/sub106)
+- [First try on Inheritance](/C++/sub107)
+- [Protected members](/C++/sub108)
+- [Base class access specifiers : Zooming in](/C++/sub109)
+- [Closing in on Private Inheritance](/C++/sub110)
+- [Resurrecting Members Back in Context](/C++/sub111)
+- [Default Constructors with Inheritance](/C++/sub112)
+- [Custom Constructors With Inheritance](/C++/sub113)
+- [Copy Constructors with Inheritance](/C++/sub114)
+- [Inheriting Base Constructors](/C++/sub115)
+- [Inheritance and Destructors](/C++/sub116)
+- [Reused Symbols in Inheritance](/C++/sub117)
 
 **Chapter 19: Polymorphism**
 - Introduction to Polymorphism
