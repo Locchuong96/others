@@ -76,3 +76,7 @@
 **9/ Batch Script Windows**
 
 [Batch The Windows Command-Line](https://www.youtube.com/watch?v=JbAyxKjUPs0&list=PL69BE3BF7D0BB69C4)
+
+**10/ Clean Architectures in Python**
+
+[Clean Architectures in Python](https://www.youtube.com/watch?v=KBxoQihhc-A)
