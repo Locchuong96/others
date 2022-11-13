@@ -204,6 +204,8 @@
 
 ### references
 
+[CMake](https://www.youtube.com/watch?v=rHjZrJmFyBQ&list=PLQMs5svASiXOraccrnEbkd_kVHbAdC2mp)
+
 [Top C++ Based Data Science And Machine Learning Libraries](https://www.marktechpost.com/2022/11/02/top-c-based-data-science-and-machine-learning-libraries/)
 
 [Top 10 C++ Projects Ideas for C++ Beginners](https://hackr.io/blog/cpp-projects)
