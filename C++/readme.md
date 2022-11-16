@@ -171,14 +171,14 @@
 - [Reused Symbols in Inheritance](/C++/sub117)
 
 **Chapter 19: Polymorphism**
-- Introduction to Polymorphism
-- Static Binding with Inheritance
-- Dynamic binding with virtual functions
-- Size of polymorphic objects and slicing
-- Polymorphic objects stored in collections (array)
-- Override
-- Overloading, overriding and function hiding
-- Inheritance and Polymorphism at different levels
+- [Introduction to Polymorphism](/C++/sub118)
+- [Static Binding with Inheritance](/C++/sub119)
+- [Dynamic binding with virtual functions](/C++/sub120)
+- [Size of polymorphic objects and slicing](/C++/sub121)
+- [Polymorphic objects stored in collections (array)](/C++/sub122)
+- [Override](/C++/sub123)
+- [Overloading, overriding and function hiding](/C++/sub124)
+- [Inheritance and Polymorphism at different levels](/C++/sub125)
 - Inheritance and polymorphism with static members
 - Final
 - Virtual functions with default arguments
