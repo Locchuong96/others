@@ -204,6 +204,8 @@
 
 ### references
 
+[C++ Tutorial W3schools](https://www.w3schools.com/cpp/default.asp)
+
 [CMake](https://www.youtube.com/watch?v=rHjZrJmFyBQ&list=PLQMs5svASiXOraccrnEbkd_kVHbAdC2mp)
 
 [Top C++ Based Data Science And Machine Learning Libraries](https://www.marktechpost.com/2022/11/02/top-c-based-data-science-and-machine-learning-libraries/)
