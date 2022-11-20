@@ -179,10 +179,10 @@
 - [Override](/C++/sub123)
 - [Overloading, overriding and function hiding](/C++/sub124)
 - [Inheritance and Polymorphism at different levels](/C++/sub125)
-- Inheritance and polymorphism with static members
-- Final
-- Virtual functions with default arguments
-- Virtual Destructors
+- [Inheritance and polymorphism with static members](/C++/sub126)
+- [Final](/C++/sub127)
+- [Virtual functions with default arguments](/C++/sub128)
+- [Virtual Destructors](/C++/sub129)
 - Dynamic casts
 - Polymorphic Functions and Destructors
 - Pure virtual functions and abstract classes
