@@ -183,10 +183,10 @@
 - [Final](/C++/sub127)
 - [Virtual functions with default arguments](/C++/sub128)
 - [Virtual Destructors](/C++/sub129)
-- Dynamic casts
-- Polymorphic Functions and Destructors
-- Pure virtual functions and abstract classes
-- Abstract Classes as Interfaces
+- [Dynamic casts](/C++/sub130)
+- [Polymorphic Functions and Destructors](/C++/sub131)
+- [Pure virtual functions and abstract classes](/C++/sub132)
+- [Abstract Classes as Interfaces](/C++/sub133)
 </p>
 </details>
 
