@@ -2,4 +2,4 @@
 
 https://doc.qt.io/qt-6/linux.html
 
-https://doc.qt.io/qt-6/gettingstarted.html
+https://web.stanford.edu/dept/cs_edu/resources/qt/install-linux
