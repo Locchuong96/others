@@ -1,4 +1,4 @@
-Install Qt
+Install Qt https://stackoverflow.com/questions/48147356/install-qt-on-ubuntu
 
     sudo apt-get install build-essential
 
