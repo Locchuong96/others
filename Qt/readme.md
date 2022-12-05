@@ -1,4 +1,16 @@
 
+# Topics of the course
+
+1/ UI Components
+
+2/ Qt5 Animations and state machine 
+
+3/ Working with MySQL and Sqlite Database
+
+4/ Qt5 Painting with QPainter class
+
+5/ Simple login and registration system
+
 [Online course](https://www.youtube.com/watch?v=Et_bgnJ_Hhg)
 
 [Install Qt](https://stackoverflow.com/questions/48147356/install-qt-on-ubuntu)
