@@ -49,11 +49,11 @@ While this is not a guarantee but using the following command may help you solve
 
 For Qt5:
 
-        sudo apt-get install qt5-default
+    sudo apt-get install qt5-default
         
 For Qt4:
 
-        sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+    sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
 
 http://www.lucidarme.me/how-install-documentation-for-qt-creator/
 
