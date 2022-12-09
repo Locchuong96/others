@@ -45,6 +45,16 @@ Solution:
 
 While this is not a guarantee but using the following command may help you solve the “cannot open shared object file” error: `sudo /sbin/ldconfig -v`
 
+[QtCreator: No valid kits found](https://stackoverflow.com/questions/26499404/qtcreator-no-valid-kits-found)
+
+For Qt5:
+
+        sudo apt-get install qt5-default
+        
+For Qt4:
+
+        sudo apt-get install qt4-dev-tools libqt4-dev libqt4-core libqt4-gui
+
 http://www.lucidarme.me/how-install-documentation-for-qt-creator/
 
 https://ubuntuforums.org/showthread.php?t=2199929
