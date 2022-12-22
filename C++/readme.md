@@ -204,6 +204,8 @@
 
 ### references
 
+[functionx](https://www.functionx.com/cpp/index.htm)
+
 [cpp-tutorial](https://www.javatpoint.com/cpp-tutorial)
 
 [C++ Tutorial W3schools](https://www.w3schools.com/cpp/default.asp)
