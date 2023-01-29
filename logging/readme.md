@@ -24,6 +24,9 @@ To export logging file we need to give the `filename` by `logging.basicConfig(fi
 
 To set the format we need to give the `format` by `logging.basicConfig(filename='test.log',format='%(asctime)s')`
 
+**Note**
+when you call 2 script and each one have calling `logging.basicConfig`, `root` file is only set by the first one running.
+
 # references
 
 [logging formatter](https://docs.python.org/2/library/logging.html#logging.Formatter)
