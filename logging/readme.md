@@ -16,6 +16,8 @@ you can set debug printing out the console by `logging.basicConfig(level=logging
 
 you can set specific level printout the console by command, example to let `INFO` level print out the console `logging.basicConfig(level=logging.INFO)`
 
+you can choice append mode `a` or  write new content `w` by `filemode` e.g `logging.basicConfig(level=logging.INFO,level='w')` 
+
 **export  logfile**
 
 To export logging file we need to give the `filename` by `logging.basicConfig(filename='test.log',level=logging.DEBUG)`
