@@ -27,6 +27,24 @@ To set the format we need to give the `format` by `logging.basicConfig(filename=
 **Note**
 when you call 2 script and each one have calling `logging.basicConfig`, `root` logger is only set by the first one running.
 
+**export multi log file**
+
+main script:
+
+    logging.basicConfig(filename='sample.log',level=logging.DEBUG,format='%(asctime)s:%(name)s:%(message)s')
+
+sub script
+
+    logger = logging.getLogger(__name__) # create a new logger 
+    logger.setLevel(logging.INFO)
+
+    formatter = logging.Formatter('%(asctime)s:%(name)s:%(levelname)s:%(message)s')
+
+    file_handler = logging.FileHandler('employee.log')
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
+    
 # references
 
 [logging formatter](https://docs.python.org/2/library/logging.html#logging.Formatter)
