@@ -29,6 +29,12 @@
         make
         ./MyApp
         
+[How to Install OpenCV in Ubuntu 16.04 LTS for C / C++](http://www.codebind.com/cpp-tutorial/install-opencv-ubuntu-cpp/)
+
+[HOW TO LINK OPENCV TO QT ON UBUNTU | LINKING OPENCV TO QT ON UBUNTU](https://www.youtube.com/watch?v=_PsxwpJnWD0)
+
+[How to Install OpenCV in Ubuntu for C / C++ (Ubuntu 18.04, Ubuntu 20.04 )](https://www.youtube.com/watch?v=6pABIQl1ZP0)
+        
 Install documentation and examples If Qt Creator is installed thanks to the Ubuntu Sofware Center or thanks to the synaptic package manager, documentation for Qt Creator is not installed. Hitting the F1 key will show you the following message : "No documentation available". This can easily be solved by installing the Qt documentation:
 
     sudo apt-get install qt5-doc
