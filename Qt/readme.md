@@ -15,8 +15,6 @@
 
 [Online course](https://www.youtube.com/watch?v=Et_bgnJ_Hhg)
 
-[Install Qt](https://stackoverflow.com/questions/48147356/install-qt-on-ubuntu)
-
 [Qmake](https://doc.qt.io/qt-6/qmake-tutorial.html)
 
     sudo apt-get install build-essential
@@ -24,7 +22,13 @@
     sudo apt-get install qtcreator
 
     sudo apt-get install qt5-default
+    
+[Install Qt](https://stackoverflow.com/questions/48147356/install-qt-on-ubuntu)
 
+        qmake -o Makefile project.pro
+        make
+        ./MyApp
+        
 Install documentation and examples If Qt Creator is installed thanks to the Ubuntu Sofware Center or thanks to the synaptic package manager, documentation for Qt Creator is not installed. Hitting the F1 key will show you the following message : "No documentation available". This can easily be solved by installing the Qt documentation:
 
     sudo apt-get install qt5-doc
