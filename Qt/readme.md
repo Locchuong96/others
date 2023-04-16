@@ -17,6 +17,8 @@
 
 [Install Qt](https://stackoverflow.com/questions/48147356/install-qt-on-ubuntu)
 
+[Qmake](https://doc.qt.io/qt-6/qmake-tutorial.html)
+
     sudo apt-get install build-essential
 
     sudo apt-get install qtcreator
