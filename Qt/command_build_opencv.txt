@@ -1,0 +1,41 @@
+sudo apt-get install build-essential
+
+sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+
+sudo add-apt-repository 'deb http://security.ubuntu.com/ubuntu xenial-security main'
+
+sudo apt update
+
+sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+
+cd ~/<my_working_directory>
+
+git clone https://github.com/opencv/opencv.git
+
+git clone https://github.com/opencv/opencv_contrib.git
+
+mkdir build
+
+cd build
+
+cmake -D BUILD_TIFF=ON\
+ -D WITH_CUDA=OFF\
+  -D ENABLE_AVX=OFF\
+   -D WITH_OPENGL=OFF\
+    -D WITH_OPENCL=OFF\
+     -D WITH_IPP=OFF\
+      -D WITH_TBB=ON\
+       -D BUILD_TBB=ON\
+        -D WITH_EIGEN=OFF\
+         -D WITH_V4L=OFF\
+          -D WITH_VTK=OFF\
+           -D BUILD_TESTS=OFF\
+            -D BUILD_PERF_TESTS=OFF\
+             -D CMAKE_BUILD_TYPE=RELEASE\
+              -D CMAKE_INSTALL_PREFIX=/usr/local\
+               -D OPENCV_EXTRA_MODULES_PATH=<path/to/opencv_contrib/modules> <path/to/opencv>
+
+make -j7 # runs 7 jobs in parallel
+
+sudo make install
+
