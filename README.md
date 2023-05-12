@@ -22,6 +22,7 @@
 - **5/ logout:** printout the result or return of the function to make sure your code work the same your thinking. And logout can let you know where the code is crashed.
 - **6/ google search your error:** copy the error print out on your terminal and search it in google, 90% sure that you are not the first one get this error, `stack-overflow` and some websites or blog can give you the answer. 
 
+
 **1/ repo bagdes**
 
 [Repo badges](https://shields.io/)
@@ -91,3 +92,7 @@
 **10/ Clean Architectures in Python**
 
 [Clean Architectures in Python](https://www.youtube.com/watch?v=KBxoQihhc-A)
+
+**tutorial**
+
+[tutorial](https://www.tutorialandexample.com/)
