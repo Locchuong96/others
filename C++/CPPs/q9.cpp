@@ -38,7 +38,7 @@ int main(){
 
     compound_interest(princ,simple_int);
 
-    getch();
+    getch(); //
 
     return 0;
 }
