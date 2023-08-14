@@ -36,6 +36,7 @@ class counter{
 };
 
  int main(){
+ 	//
 
     return 0;
  }
