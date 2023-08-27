@@ -1,53 +1,57 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-class base //base class
-{
+// base class
+class base{
     public:
-    void fibbo(int); //member fun. declaration
+    // member function declaration
+    void fibbo(int);
 };
 
-void base::fibbo(int n) //member fun. definition
-{
+// member function definition
+void base::fibbo(int n){
     int n1=0,n2=1,n3;
     int i;
-    cout<<"Series is : "<<endl<<endl;
-    cout<<n1<<" "<<n2;
-    for(i=0; i<n-2; i++)
-    { n3=n1+n2;
-    cout<<" "<<n3;
-    n1 = n2;
-    n2 = n3; }
-    cout<<endl<<"This is base class fibbonacci.."<<endl<<endl;
+    cout << "Series is: " << endl;
+    cout << n1 << " " << n2;
+    for(i=0;i<n-2;i++){
+        n3 = n1 + n2;
+        cout << " " << n3;
+        n1 = n2;
+        n2 = n3;
+    }
+    cout << endl << "This is base class fibbonaci.." << endl;
 }
 
-class derived:public base //publically derivation of base class
-{
+// publically derivation of base class
+class derived:public base{
     public:
-    int fibbo(int n) //same name as base class function
-    { if(n==0 || n==1)
-    return n;
-    else
-    return fibbo(n-1)+fibbo(n-2);
-    } //member fun. Definition
+    // same bame as base class function
+    int fibbo(int n){
+        if(n==0||n==1){
+            return n;
+        }
+        else{
+            return fibbo(n-1) + fibbo(n-2);
+        }
+    }
 };
 
-int main()
-{
-    derived d; //object of derived class
+int main(){
+
     int n;
-    cout<<"How many terms you want : ";
-    cin>>n;
-    d.base::fibbo(n); //function overriding
     int i=0;
-    cout<<endl<<endl;
-    cout<<"How many terms you want : ";
-    cin>>n;
-    cout<<"Series is :"<<endl<<endl;
+    //base b;
+    derived d;
+
+    cout << "How many terms you want: " << endl;
+    cin >> n;
+
     while(i<n){
-    cout<<" "<<d.derived::fibbo(i); //function overriding
-    i++;
+        d.fibbo(n);
+        cout << " " << d.derived::fibbo(i); // function overidding
+        i++;
     }
-    cout<<endl<<endl<<"This is derived class fibbonacci..."<<endl;
+    cout << endl << "This is derived fibbonacci..." << endl;
     return 0;
 }
