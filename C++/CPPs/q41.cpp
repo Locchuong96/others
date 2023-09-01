@@ -26,6 +26,7 @@ class sample{
     sample operator-(sample);
     sample operator/(sample);
     sample operator*(sample);
+    bool operator==(sample);
 };
 
 sample sample::operator+(sample s){
@@ -60,7 +61,15 @@ sample sample::operator*(sample s){
     return tmp;
 }
 
+bool sample::operator==(sample s){
+    if(x==s.x && y==s.y && z==s.z){
+        return true;
+    }
+    return false;
+}
+
 int main(){
+    bool equal;
     sample s1(1,2,3), s2(2,3,4);
     
     sample s3 = s1 + s2;
@@ -74,6 +83,9 @@ int main(){
 
     sample s6 = s1 / s2;
     s6.display_sample();
-    
+
+    equal = s1==s2;
+
+    cout << "s1==s2: " << equal << endl; 
     return 0;
 }
