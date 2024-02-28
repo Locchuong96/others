@@ -1,0 +1,22 @@
+# COMPILER
+g++ main.cpp  -o main
+
+# CMAKE
+first write some simple code
+
+now we first need to check cmake which on our system `cmake --version`
+
+then we need to set C++11 check c++ version 'gcc --version'
+
+then create CMakeLists.txt file
+
+create build folder
+
+type 'cmake ..'
+
+type 'make'
+
+
+https://www.youtube.com/watch?v=mKZ-i-UfGgQ
+
+https://askubuntu.com/questions/355565/how-do-i-install-the-latest-version-of-cmake-from-the-command-line
